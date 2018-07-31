@@ -149,7 +149,7 @@ static NSString *const Domain = @"com.marianhello";
 - (void) setShowsBackgroundLocationIndicator:(BOOL)shows
 {
     if (@available(iOS 11, *)) {
-        locationManager.showsBackgroundLocationIndicator = shows;
+        // locationManager.showsBackgroundLocationIndicator = shows;
     }
 }
 
